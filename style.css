@@ -1,0 +1,50 @@
+.formbox {
+    background-color: darkred;
+    font-size: medium;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+.field-group{
+  font-family: Verdana;
+  font-style: oblique;
+  color: white;
+}
+
+.form-box .field-group input {
+  padding: 5px 6px;
+  flex: 5 2;
+  /* width: 30em; */
+  margin: 1%;
+}
+
+
+
+.form-box .field-group label {
+  font-weight: bold;
+  flex: 3 1;
+  padding: 5px 6px;
+  margin: 1%;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+    visibility: hidden;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
